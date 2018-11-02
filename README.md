@@ -17,16 +17,18 @@
 `npm start`
 
 ## DIY
-
-* 编辑你的DIY QMD 
+### 编辑你的DIY QMD 
 在app.js中，使用react与antd框架编写你的签名档并使用dev调试
 
-* 上传文件到CC98服务器
-** 当qmd达到你满意的效果后，使用`npm build` 将js文件打包
-** 将打包后的main.js文件上传至CC98服务器，并将js地址写入display.html中
-** 将display.html上传至CC98服务器
+### 上传文件到CC98服务器
 
-* 更换签名档
+- 当qmd达到你满意的效果后，使用`npm build` 将js文件打包
+
+- 将打包后的main.js文件上传至CC98服务器，并将js地址写入display.html中
+
+- 将display.html上传至CC98服务器
+
+### 更换签名档
 将display.html的地址写入sandbox标签中
 
 格式如下
